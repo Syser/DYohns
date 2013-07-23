@@ -1,0 +1,4 @@
+D:\Dev\Visual Studio 2012\Projects\QYWeb\QYWeb\bin\QYWeb.dll
+D:\Dev\Visual Studio 2012\Projects\QYWeb\QYWeb\bin\QYWeb.pdb
+D:\Dev\Visual Studio 2012\Projects\QYWeb\QYWeb\obj\Debug\QYWeb.dll
+D:\Dev\Visual Studio 2012\Projects\QYWeb\QYWeb\obj\Debug\QYWeb.pdb
