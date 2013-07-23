@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainNavigation.master.cs" Inherits="QYWeb.Views.Masters.MainNavigation" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />   
+    <script src="<%: ResolveUrl("~/Scripts/jquery-1.9.1.js") %>"></script>
+    <script src="<%: ResolveUrl("~/Scripts/bootstrap-transition.js") %>"></script>
+    <script src="<%: ResolveUrl("~/Scripts/bootstrap-alert.js") %>"></script>
+    <script src="<%: ResolveUrl("~/Scripts/bootstrap-modal.js") %>"></script>
+    <script src="<%: ResolveUrl("~/Scripts/bootstrap-dropdown.js") %>"></script>
+    <script src="<%: ResolveUrl("~/Scripts/bootstrap-scrollspy.js") %>"></script>
+    <script src="<%: ResolveUrl("~/Scripts/bootstrap-tab.js") %>"></script>
+    <script src="<%: ResolveUrl("~/Scripts/bootstrap-tooltip.js") %>"></script>
+    <script src="<%: ResolveUrl("~/Scripts/bootstrap-popover.js") %>"></script>
+    <script src="<%: ResolveUrl("~/Scripts/bootstrap-button.js") %>"></script>
+    <script src="<%: ResolveUrl("~/Scripts/bootstrap-collapse.js") %>"></script>
+    <script src="<%: ResolveUrl("~/Scripts/bootstrap-carousel.js") %>"></script>
+    <script src="<%: ResolveUrl("~/Scripts/bootstrap-typeahead.js") %>"></script>
+    <script src="<%: ResolveUrl("~/Scripts/bootstrap-affix.js") %>"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <a class="brand" href="#">青羊教育网络学习平台</a>
+                <ul class="nav">
+                    <li><a href="#">主页</a></li>
+                    <li class="active"><a href="#">名师堂</a></li>
+                    <li><a href="#">评价系统</a></li>
+                    <li><a href="#">网上作业</a></li>
+                    <li><a href="#">我的文档</a></li>
+                    <li><a href="#">兴趣小组</a></li>
+                </ul>
+                <ul class="nav pull-right">
+                    <li class="divider-vertical"></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">DYohns <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="<%: ResolveUrl("~/Views/AccountManagement/BaseInfo.aspx") %>">用户管理</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">退出</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <asp:ContentPlaceHolder ID="body_container" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

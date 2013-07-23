@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Views/Masters/MainNavigation.Master" AutoEventWireup="true" CodeBehind="AccountLeftNavigationNested.master.cs" Inherits="QYWeb.Views.Masters.AccountLeftNavigation" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="<%: ResolveUrl("~/Content/accountManagement.css") %>" rel="stylesheet" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="body_container" runat="server">
+    <div class="container-left">
+        <div class="container-left-top">
+            <div class="imageBox">
+                <img src="<%: ResolveUrl("~/Content/images/portrait.png") %>" alt="DYohns">
+                <div class="account"><span>DYohns</span></div>
+            </div>
+        </div>
+        <div class="container-left-middle">
+            <span>登录时间：XXXX-XX-XX</span>
+        </div>
+        <div class="container-left-bottom">
+            <div class="navigation">
+                <ul class="nav nav-pills nav-stacked">
+                    <asp:ContentPlaceHolder ID="container_left_navigation" runat="server">
+                    </asp:ContentPlaceHolder>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-right">
+        <asp:ContentPlaceHolder ID="container_right" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>

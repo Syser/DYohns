@@ -1,0 +1,56 @@
+﻿/* #header */
+#header {
+	font-family: "Microsoft YaHei";
+}
+
+/* #container */
+#container {
+	font-family: "Microsoft YaHei";
+	margin-top: 41px;
+}
+#container input {
+	font-family: "Microsoft YaHei";
+}
+#container button {
+	font-family: "Microsoft YaHei";
+}
+
+/* #container .container-left */
+.container-left {
+	background-color: #E9E9E9;
+	height: 700px;
+	padding-top: 30px;
+	margin-left: 140px;
+	width: 240px;
+	float: left;
+}
+
+/* #container .container-left .container-left-top .imageBox */
+.imageBox {
+	background-color: #fff;
+	margin: 0 auto;
+	width: 140px;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+}
+.imageBox img {
+	margin: 3%;
+	width: 94%;
+}
+.account {
+	text-align: center;
+}
+
+/* #container .container-left .container-left-middle */
+.container-left-middle {
+	margin: 20px auto;
+	text-align: center;
+}
+
+/* #container .container-right */
+.legend {
+	margin-left: 25px;
+}
+ div.imageControls {
+ 	width: 200px;
+ }
